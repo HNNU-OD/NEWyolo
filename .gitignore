@@ -19,3 +19,5 @@ runs/
 .idea/
 .vscode/
 datasets.zip
+
+datasets/insulator_merged_yolo/labels.cache
