@@ -1,0 +1,13 @@
+{
+  "model": "yolov8m.pt",
+  "batch": 4,
+  "exit_code": 0,
+  "total_wall_seconds": 1252.0224887999975,
+  "log": "D:\\newYOLO\\insulator_project\\yolov8m_5epochs_20260928_174822.log",
+  "telemetry": "D:\\newYOLO\\insulator_project\\yolov8m_gpu_5epochs_20260928_174822.jsonl",
+  "sampled_gpu_wh": 13.782699468055556,
+  "note": "Sampled GPU energy only; excludes CPU, display, adapters, and other system power.",
+  "mean_sampled_gpu_w": 39.497519999999994,
+  "max_sampled_memory_mib": 5924.0,
+  "max_sampled_temperature_c": 77.0
+}

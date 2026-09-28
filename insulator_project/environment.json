@@ -1,0 +1,7 @@
+{
+  "ultralytics": "8.4.164",
+  "source": "D:\\newYOLO/ultralytics\\ultralytics\\__init__.py",
+  "torch": "2.0.0+cu118",
+  "cuda": "11.8",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU"
+}

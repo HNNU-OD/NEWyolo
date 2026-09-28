@@ -1,0 +1,44 @@
+[
+  {
+    "image": "D:\\newYOLO\\datasets\\insulator_merged_yolo\\images\\original_002439.jpg",
+    "predicted_classes": [
+      "severe_soiling_no_discharge_whole",
+      "severe_soiling_no_discharge_whole",
+      "severe_soiling_no_discharge_whole",
+      "severe_soiling_no_discharge_whole",
+      "severe_soiling_no_discharge_whole",
+      "severe_soiling_no_discharge_whole"
+    ]
+  },
+  {
+    "image": "D:\\newYOLO\\datasets\\insulator_merged_yolo\\images\\idd_170526.jpg",
+    "predicted_classes": [
+      "insulator_unspecified",
+      "broken_local",
+      "broken_local"
+    ]
+  },
+  {
+    "image": "D:\\newYOLO\\datasets\\insulator_merged_yolo\\images\\idd_170080h.jpg",
+    "predicted_classes": [
+      "insulator_unspecified",
+      "broken_local"
+    ]
+  },
+  {
+    "image": "D:\\newYOLO\\datasets\\insulator_merged_yolo\\images\\idd_160873Ad.jpg",
+    "predicted_classes": [
+      "insulator_unspecified",
+      "pollution_flashover_local",
+      "pollution_flashover_local"
+    ]
+  },
+  {
+    "image": "D:\\newYOLO\\datasets\\insulator_merged_yolo\\images\\vpmbgi_cdien_ttinh_ct_vo_617_jpg.rf.2cae63bed7168242ae40505224096476.jpg",
+    "predicted_classes": [
+      "broken_glass_local",
+      "broken_glass_local",
+      "broken_glass_local"
+    ]
+  }
+]

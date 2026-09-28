@@ -1,0 +1,6 @@
+{
+  "source": "D:\\ob\\ob\\ultralytics-main\\yolov8n.pt",
+  "destination": "D:\\newYOLO\\insulator_project\\weights\\yolov8n.pt",
+  "sha256": "F59B3D833E2FF32E194B5BB8E08D211DC7C5BDF144B90D2C8412C47CCFC83B36",
+  "note": "Reused existing local YOLOv8n checkpoint after official asset download connection failure"
+}

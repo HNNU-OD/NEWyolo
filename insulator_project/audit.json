@@ -1,0 +1,826 @@
+{
+  "images": 3370,
+  "labels": 3370,
+  "boxes": 9532,
+  "class_boxes": {
+    "1": 1645,
+    "2": 963,
+    "3": 2223,
+    "0": 3513,
+    "4": 1188
+  },
+  "split_images": {
+    "train": 2848,
+    "val": 383,
+    "test": 139
+  },
+  "errors": [],
+  "empty_labels": [
+    "original_000003.jpg",
+    "original_000006.jpg",
+    "original_000007.jpg",
+    "original_000008.jpg",
+    "original_000009.jpg",
+    "original_000010.jpg",
+    "original_000026.jpg",
+    "original_000058.jpg",
+    "original_000071.jpg",
+    "original_000075.jpg",
+    "original_000109.jpg",
+    "original_000136.jpg",
+    "original_000257.jpg",
+    "original_000289.jpg",
+    "original_000292.jpg",
+    "original_000323.jpg",
+    "original_000344.jpg",
+    "original_000368.jpg",
+    "original_000384.jpg",
+    "original_000436.jpg",
+    "original_000445.jpg",
+    "original_000450.jpg",
+    "original_000451.jpg",
+    "original_000502.jpg",
+    "original_000503.jpg",
+    "original_000536.jpg",
+    "original_000549.jpg",
+    "original_000587.jpg",
+    "original_000597.jpg",
+    "original_000603.jpg",
+    "original_000637.jpg",
+    "original_000682.jpg",
+    "original_000739.jpg",
+    "original_000762.jpg",
+    "original_000787.jpg",
+    "original_000788.jpg",
+    "original_000832.jpg",
+    "original_000961.jpg",
+    "original_000975.jpg",
+    "original_001036.jpg",
+    "original_001087.jpg",
+    "original_001089.jpg",
+    "original_001091.jpg",
+    "original_001185.jpg",
+    "original_001211.jpg",
+    "original_001266.jpg",
+    "original_001311.jpg",
+    "original_001324.jpg",
+    "original_001332.jpg",
+    "original_001363.jpg",
+    "original_001364.jpg",
+    "original_001374.jpg",
+    "original_001517.jpg",
+    "original_001645.jpg",
+    "original_001650.jpg",
+    "original_001651.jpg",
+    "original_001656.jpg",
+    "original_001676.jpg",
+    "original_001693.jpg",
+    "original_001727.jpg",
+    "original_001747.jpg",
+    "original_002010.jpg",
+    "original_002044.jpg",
+    "original_002243.jpg",
+    "original_002348.jpg",
+    "original_002350.jpg",
+    "original_002371.jpg",
+    "original_002517.jpg",
+    "original_002523.jpg",
+    "original_002541.jpg",
+    "original_002563.jpg",
+    "original_002643.jpg",
+    "original_002685.jpg",
+    "original_002770.jpg",
+    "original_002771.jpg",
+    "original_002799.jpg",
+    "original_002865.jpg",
+    "original_002896.jpg",
+    "original_003069.jpg",
+    "original_003076.jpg",
+    "original_003078.jpg",
+    "original_003082.jpg",
+    "original_003103.jpg",
+    "original_003114.jpg",
+    "original_003115.jpg",
+    "original_003116.jpg",
+    "original_003160.jpg",
+    "original_003235.jpg",
+    "original_003236.jpg",
+    "original_003239.jpg",
+    "original_003292.jpg",
+    "original_003328.jpg",
+    "original_003386.jpg",
+    "original_003391.jpg",
+    "original_003394.jpg",
+    "original_003433.jpg",
+    "original_003442.jpg",
+    "original_003464.jpg",
+    "original_003545.jpg",
+    "original_003625.jpg",
+    "original_003632.jpg",
+    "original_003801.jpg",
+    "original_003845.jpg",
+    "original_003894.jpg",
+    "original_003917.jpg",
+    "original_004012.jpg",
+    "original_004057.jpg",
+    "original_004218.jpg",
+    "original_004219.jpg",
+    "original_004270.jpg",
+    "original_004283.jpg",
+    "original_004366.jpg",
+    "original_004377.jpg",
+    "original_004397.jpg",
+    "original_004477.jpg",
+    "original_004501.jpg",
+    "original_004535.jpg",
+    "original_004539.jpg",
+    "original_004551.jpg",
+    "original_004561.jpg",
+    "original_004667.jpg",
+    "original_004742.jpg",
+    "original_004744.jpg",
+    "original_004754.jpg",
+    "original_004778.jpg",
+    "vpmbgi_20221210_092306_jpg.rf.29d7a3c7610c0f500eb86031fab814b2.jpg",
+    "vpmbgi_20221210_092400_jpg.rf.5b5aef6e4167e15ade407fec218a3d9f.jpg",
+    "vpmbgi_20221210_092401_jpg.rf.4c3d223b1a95ddcd890b23daf39da26d.jpg",
+    "vpmbgi_20221214_101340_jpg.rf.60bb5587c2e4bb544c211f65a451abd5.jpg",
+    "vpmbgi_20221221_143854_jpg.rf.af401aee870d7dfd3fa1389f00bd5026.jpg",
+    "vpmbgi_Thuy-tinh-11-_jpg.rf.2905f0f7476c487e8d45f7ea28126de7.jpg",
+    "vpmbgi_Thuy-tinh-12-_jpg.rf.ac38a72c48fcba6265da861fb6e4c095.jpg",
+    "vpmbgi_Thuy-tinh-14-_jpg.rf.0a9a3b397e077dbf4156c7ac7f9a5ec1.jpg",
+    "vpmbgi_Thuy-tinh-25-_jpg.rf.a55e0fec1e4af958759a009d3b1604e4.jpg",
+    "vpmbgi_Thuy-tinh-26-_jpg.rf.006634aa537dca91ebafe3499808c583.jpg",
+    "vpmbgi_Thuy-tinh-27-_jpg.rf.6668fd01515200eb978376d8f33d3989.jpg",
+    "vpmbgi_Thuy-tinh-29-_jpg.rf.80285be02cf571a657cf9dd2465cf5c8.jpg",
+    "vpmbgi_Thuy-tinh-30-_jpg.rf.8b22e03712401de96bdd690c6d4b646b.jpg",
+    "vpmbgi_Thuy-tinh-44-_JPG_jpg.rf.33673bb7c1074b4404aaed8ef0eaa985.jpg"
+  ],
+  "exact_duplicate_groups": [],
+  "non_default_exif": [],
+  "cross_split_similar_idd_groups": [
+    {
+      "a": "idd_000000795.jpg",
+      "b": "idd_000000795h.jpg",
+      "mae": 0.4884440104166667
+    },
+    {
+      "a": "idd_100009.jpg",
+      "b": "idd_100009h.jpg",
+      "mae": 0.4928792317708333
+    },
+    {
+      "a": "idd_100010d.jpg",
+      "b": "idd_100010v.jpg",
+      "mae": 0.483642578125
+    },
+    {
+      "a": "idd_100015.jpg",
+      "b": "idd_100015h.jpg",
+      "mae": 0.5630900065104166
+    },
+    {
+      "a": "idd_100017.jpg",
+      "b": "idd_100017h.jpg",
+      "mae": 0.4376627604166667
+    },
+    {
+      "a": "idd_100124.jpg",
+      "b": "idd_100124h.jpg",
+      "mae": 0.37841796875
+    },
+    {
+      "a": "idd_100184d.jpg",
+      "b": "idd_100184v.jpg",
+      "mae": 0.5228271484375
+    },
+    {
+      "a": "idd_100228d.jpg",
+      "b": "idd_100228v.jpg",
+      "mae": 0.3716634114583333
+    },
+    {
+      "a": "idd_100280.jpg",
+      "b": "idd_100280h.jpg",
+      "mae": 0.4391276041666667
+    },
+    {
+      "a": "idd_100281d.jpg",
+      "b": "idd_100281v.jpg",
+      "mae": 0.4002278645833333
+    },
+    {
+      "a": "idd_100297d.jpg",
+      "b": "idd_100297v.jpg",
+      "mae": 0.42840576171875
+    },
+    {
+      "a": "idd_110009d.jpg",
+      "b": "idd_110009v.jpg",
+      "mae": 0.12530517578125
+    },
+    {
+      "a": "idd_110018.jpg",
+      "b": "idd_110018h.jpg",
+      "mae": 0.3837076822916667
+    },
+    {
+      "a": "idd_130027.jpg",
+      "b": "idd_130027h.jpg",
+      "mae": 0.5763956705729166
+    },
+    {
+      "a": "idd_130031.jpg",
+      "b": "idd_130031h.jpg",
+      "mae": 0.5703125
+    },
+    {
+      "a": "idd_130032d.jpg",
+      "b": "idd_130032v.jpg",
+      "mae": 0.5608723958333334
+    },
+    {
+      "a": "idd_140031.jpg",
+      "b": "idd_140031h.jpg",
+      "mae": 0.4684855143229167
+    },
+    {
+      "a": "idd_140049d.jpg",
+      "b": "idd_140049v.jpg",
+      "mae": 0.5617879231770834
+    },
+    {
+      "a": "idd_140061d.jpg",
+      "b": "idd_140061v.jpg",
+      "mae": 0.4072672526041667
+    },
+    {
+      "a": "idd_150344d.jpg",
+      "b": "idd_150344h.jpg",
+      "mae": 0.4986165364583333
+    },
+    {
+      "a": "idd_150345d.jpg",
+      "b": "idd_150345v.jpg",
+      "mae": 0.3619791666666667
+    },
+    {
+      "a": "idd_150362.jpg",
+      "b": "idd_150362h.jpg",
+      "mae": 0.4518229166666667
+    },
+    {
+      "a": "idd_150438d.jpg",
+      "b": "idd_150438v.jpg",
+      "mae": 0.4039103190104167
+    },
+    {
+      "a": "idd_150462.jpg",
+      "b": "idd_150462v.jpg",
+      "mae": 0.8511962890625
+    },
+    {
+      "a": "idd_150465.jpg",
+      "b": "idd_150465h.jpg",
+      "mae": 0.42071533203125
+    },
+    {
+      "a": "idd_150477d.jpg",
+      "b": "idd_150477v.jpg",
+      "mae": 0.5299275716145834
+    },
+    {
+      "a": "idd_150491d.jpg",
+      "b": "idd_150491v.jpg",
+      "mae": 0.4244791666666667
+    },
+    {
+      "a": "idd_150500.jpg",
+      "b": "idd_150500h.jpg",
+      "mae": 0.5498860677083334
+    },
+    {
+      "a": "idd_150526d.jpg",
+      "b": "idd_150526v.jpg",
+      "mae": 0.5369466145833334
+    },
+    {
+      "a": "idd_15060399d.jpg",
+      "b": "idd_15060399h.jpg",
+      "mae": 0.5650431315104166
+    },
+    {
+      "a": "idd_15060499d.jpg",
+      "b": "idd_15060499v.jpg",
+      "mae": 0.41046142578125
+    },
+    {
+      "a": "idd_15062399d.jpg",
+      "b": "idd_15062399h.jpg",
+      "mae": 0.9414265950520834
+    },
+    {
+      "a": "idd_150711.jpg",
+      "b": "idd_150711h.jpg",
+      "mae": 0.3931681315104167
+    },
+    {
+      "a": "idd_15071699.jpg",
+      "b": "idd_15071699h.jpg",
+      "mae": 0.5439453125
+    },
+    {
+      "a": "idd_15072299d.jpg",
+      "b": "idd_15072299v.jpg",
+      "mae": 0.5428873697916666
+    },
+    {
+      "a": "idd_15072799.jpg",
+      "b": "idd_15072799h.jpg",
+      "mae": 0.57342529296875
+    },
+    {
+      "a": "idd_15073.jpg",
+      "b": "idd_15073h.jpg",
+      "mae": 0.4570515950520833
+    },
+    {
+      "a": "idd_15074099.jpg",
+      "b": "idd_15074099h.jpg",
+      "mae": 0.56512451171875
+    },
+    {
+      "a": "idd_150776.jpg",
+      "b": "idd_150776h.jpg",
+      "mae": 0.4409586588541667
+    },
+    {
+      "a": "idd_150814.jpg",
+      "b": "idd_150814h.jpg",
+      "mae": 0.5260823567708334
+    },
+    {
+      "a": "idd_150815.jpg",
+      "b": "idd_150815v.jpg",
+      "mae": 0.9407958984375
+    },
+    {
+      "a": "idd_150864d.jpg",
+      "b": "idd_150864v.jpg",
+      "mae": 0.5774943033854166
+    },
+    {
+      "a": "idd_150878d.jpg",
+      "b": "idd_150878v.jpg",
+      "mae": 0.5072224934895834
+    },
+    {
+      "a": "idd_151368.jpg",
+      "b": "idd_151368h.jpg",
+      "mae": 0.4339803059895833
+    },
+    {
+      "a": "idd_160028.jpg",
+      "b": "idd_160028h.jpg",
+      "mae": 0.4910074869791667
+    },
+    {
+      "a": "idd_160164.jpg",
+      "b": "idd_160164h.jpg",
+      "mae": 0.4098917643229167
+    },
+    {
+      "a": "idd_160165.jpg",
+      "b": "idd_160165h.jpg",
+      "mae": 0.5029703776041666
+    },
+    {
+      "a": "idd_160376d.jpg",
+      "b": "idd_160376v.jpg",
+      "mae": 0.3570149739583333
+    },
+    {
+      "a": "idd_160408d.jpg",
+      "b": "idd_160408v.jpg",
+      "mae": 0.28350830078125
+    },
+    {
+      "a": "idd_160435.jpg",
+      "b": "idd_160435h.jpg",
+      "mae": 0.4162801106770833
+    },
+    {
+      "a": "idd_160437d.jpg",
+      "b": "idd_160437v.jpg",
+      "mae": 0.4521077473958333
+    },
+    {
+      "a": "idd_160438d.jpg",
+      "b": "idd_160438v.jpg",
+      "mae": 0.40655517578125
+    },
+    {
+      "a": "idd_160440d.jpg",
+      "b": "idd_160440h.jpg",
+      "mae": 0.7086995442708334
+    },
+    {
+      "a": "idd_160442.jpg",
+      "b": "idd_160442v.jpg",
+      "mae": 0.6558024088541666
+    },
+    {
+      "a": "idd_160538d.jpg",
+      "b": "idd_160538v.jpg",
+      "mae": 0.3268025716145833
+    },
+    {
+      "a": "idd_160559.jpg",
+      "b": "idd_160559v.jpg",
+      "mae": 0.3835652669270833
+    },
+    {
+      "a": "idd_16064.jpg",
+      "b": "idd_16064h.jpg",
+      "mae": 0.3543701171875
+    },
+    {
+      "a": "idd_160778d.jpg",
+      "b": "idd_160778v.jpg",
+      "mae": 0.4574178059895833
+    },
+    {
+      "a": "idd_160785.jpg",
+      "b": "idd_160785h.jpg",
+      "mae": 0.4819742838541667
+    },
+    {
+      "a": "idd_160840d.jpg",
+      "b": "idd_160840v.jpg",
+      "mae": 0.4378458658854167
+    },
+    {
+      "a": "idd_160873Ad.jpg",
+      "b": "idd_160873Av.jpg",
+      "mae": 0.2707112630208333
+    },
+    {
+      "a": "idd_160936d.jpg",
+      "b": "idd_160936v.jpg",
+      "mae": 0.3141072591145833
+    },
+    {
+      "a": "idd_161030.jpg",
+      "b": "idd_161030h.jpg",
+      "mae": 0.2995198567708333
+    },
+    {
+      "a": "idd_161034.jpg",
+      "b": "idd_161034h.jpg",
+      "mae": 0.5041300455729166
+    },
+    {
+      "a": "idd_161056.jpg",
+      "b": "idd_161056h.jpg",
+      "mae": 0.4055582682291667
+    },
+    {
+      "a": "idd_161061d.jpg",
+      "b": "idd_161061v.jpg",
+      "mae": 0.5619303385416666
+    },
+    {
+      "a": "idd_161088.jpg",
+      "b": "idd_161088h.jpg",
+      "mae": 0.28277587890625
+    },
+    {
+      "a": "idd_161134.jpg",
+      "b": "idd_161134h.jpg",
+      "mae": 0.4930419921875
+    },
+    {
+      "a": "idd_161212d.jpg",
+      "b": "idd_161212v.jpg",
+      "mae": 0.2853190104166667
+    },
+    {
+      "a": "idd_161219.jpg",
+      "b": "idd_161219h.jpg",
+      "mae": 0.33221435546875
+    },
+    {
+      "a": "idd_161235.jpg",
+      "b": "idd_161235h.jpg",
+      "mae": 0.23624674479166666
+    },
+    {
+      "a": "idd_161236d.jpg",
+      "b": "idd_161236v.jpg",
+      "mae": 0.3132120768229167
+    },
+    {
+      "a": "idd_161283d.jpg",
+      "b": "idd_161283v.jpg",
+      "mae": 0.4566650390625
+    },
+    {
+      "a": "idd_161355.jpg",
+      "b": "idd_161355h.jpg",
+      "mae": 0.2600504557291667
+    },
+    {
+      "a": "idd_161397d.jpg",
+      "b": "idd_161397v.jpg",
+      "mae": 0.2838948567708333
+    },
+    {
+      "a": "idd_161409.jpg",
+      "b": "idd_161409v.jpg",
+      "mae": 0.639892578125
+    },
+    {
+      "a": "idd_161466.jpg",
+      "b": "idd_161466h.jpg",
+      "mae": 0.36212158203125
+    },
+    {
+      "a": "idd_161500.jpg",
+      "b": "idd_161500h.jpg",
+      "mae": 0.3330891927083333
+    },
+    {
+      "a": "idd_161516.jpg",
+      "b": "idd_161516v.jpg",
+      "mae": 0.5138753255208334
+    },
+    {
+      "a": "idd_170029d.jpg",
+      "b": "idd_170029h.jpg",
+      "mae": 0.63067626953125
+    },
+    {
+      "a": "idd_170041.jpg",
+      "b": "idd_170041h.jpg",
+      "mae": 0.3655598958333333
+    },
+    {
+      "a": "idd_170046.jpg",
+      "b": "idd_170046h.jpg",
+      "mae": 0.4012858072916667
+    },
+    {
+      "a": "idd_170058d.jpg",
+      "b": "idd_170058h.jpg",
+      "mae": 0.7151285807291666
+    },
+    {
+      "a": "idd_170059d.jpg",
+      "b": "idd_170059v.jpg",
+      "mae": 0.5311279296875
+    },
+    {
+      "a": "idd_170061.jpg",
+      "b": "idd_170061v.jpg",
+      "mae": 0.8484700520833334
+    },
+    {
+      "a": "idd_170062.jpg",
+      "b": "idd_170062h.jpg",
+      "mae": 0.5563151041666666
+    },
+    {
+      "a": "idd_170063.jpg",
+      "b": "idd_170063h.jpg",
+      "mae": 0.4129638671875
+    },
+    {
+      "a": "idd_170068.jpg",
+      "b": "idd_170068h.jpg",
+      "mae": 0.4397379557291667
+    },
+    {
+      "a": "idd_170080.jpg",
+      "b": "idd_170080h.jpg",
+      "mae": 0.4816080729166667
+    },
+    {
+      "a": "idd_170082.jpg",
+      "b": "idd_170082h.jpg",
+      "mae": 0.4129435221354167
+    },
+    {
+      "a": "idd_170087.jpg",
+      "b": "idd_170087v.jpg",
+      "mae": 0.6200358072916666
+    },
+    {
+      "a": "idd_170097.jpg",
+      "b": "idd_170097h.jpg",
+      "mae": 0.5005900065104166
+    },
+    {
+      "a": "idd_170128.jpg",
+      "b": "idd_170128h.jpg",
+      "mae": 0.40020751953125
+    },
+    {
+      "a": "idd_170148.jpg",
+      "b": "idd_170148v.jpg",
+      "mae": 0.7932535807291666
+    },
+    {
+      "a": "idd_170163.jpg",
+      "b": "idd_170163v.jpg",
+      "mae": 0.6533203125
+    },
+    {
+      "a": "idd_170167.jpg",
+      "b": "idd_170167h.jpg",
+      "mae": 0.4897664388020833
+    },
+    {
+      "a": "idd_170172.jpg",
+      "b": "idd_170172h.jpg",
+      "mae": 0.5182291666666666
+    },
+    {
+      "a": "idd_170177d.jpg",
+      "b": "idd_170177v.jpg",
+      "mae": 0.5701090494791666
+    },
+    {
+      "a": "idd_170183d.jpg",
+      "b": "idd_170183v.jpg",
+      "mae": 0.711181640625
+    },
+    {
+      "a": "idd_170191d.jpg",
+      "b": "idd_170191v.jpg",
+      "mae": 0.4225260416666667
+    },
+    {
+      "a": "idd_170193d.jpg",
+      "b": "idd_170193v.jpg",
+      "mae": 0.3922119140625
+    },
+    {
+      "a": "idd_170199.jpg",
+      "b": "idd_170199v.jpg",
+      "mae": 0.48724365234375
+    },
+    {
+      "a": "idd_17021299d.jpg",
+      "b": "idd_17021299v.jpg",
+      "mae": 0.44097900390625
+    },
+    {
+      "a": "idd_170218.jpg",
+      "b": "idd_170218h.jpg",
+      "mae": 0.6100056966145834
+    },
+    {
+      "a": "idd_170222.jpg",
+      "b": "idd_170222h.jpg",
+      "mae": 0.5676472981770834
+    },
+    {
+      "a": "idd_170236d.jpg",
+      "b": "idd_170236v.jpg",
+      "mae": 0.6050618489583334
+    },
+    {
+      "a": "idd_17024099.jpg",
+      "b": "idd_17024099h.jpg",
+      "mae": 0.3512980143229167
+    },
+    {
+      "a": "idd_170243.jpg",
+      "b": "idd_170243h.jpg",
+      "mae": 0.5703938802083334
+    },
+    {
+      "a": "idd_17027799.jpg",
+      "b": "idd_17027799h.jpg",
+      "mae": 0.445068359375
+    },
+    {
+      "a": "idd_17031599d.jpg",
+      "b": "idd_17031599v.jpg",
+      "mae": 0.4632364908854167
+    },
+    {
+      "a": "idd_17032999.jpg",
+      "b": "idd_17032999h.jpg",
+      "mae": 0.3912760416666667
+    },
+    {
+      "a": "idd_17033199d.jpg",
+      "b": "idd_17033199v.jpg",
+      "mae": 0.4098307291666667
+    },
+    {
+      "a": "idd_170365d.jpg",
+      "b": "idd_170365v.jpg",
+      "mae": 0.3838094075520833
+    },
+    {
+      "a": "idd_170485.jpg",
+      "b": "idd_170485h.jpg",
+      "mae": 0.3871256510416667
+    },
+    {
+      "a": "idd_170520d.jpg",
+      "b": "idd_170520v.jpg",
+      "mae": 0.4890543619791667
+    },
+    {
+      "a": "idd_170526.jpg",
+      "b": "idd_170526h.jpg",
+      "mae": 0.4745686848958333
+    },
+    {
+      "a": "idd_170551.jpg",
+      "b": "idd_170551h.jpg",
+      "mae": 0.4532674153645833
+    },
+    {
+      "a": "idd_170615d.jpg",
+      "b": "idd_170615v.jpg",
+      "mae": 0.4507039388020833
+    },
+    {
+      "a": "idd_17062199.jpg",
+      "b": "idd_17062199h.jpg",
+      "mae": 0.3133951822916667
+    },
+    {
+      "a": "idd_170651d.jpg",
+      "b": "idd_170651v.jpg",
+      "mae": 0.3970540364583333
+    },
+    {
+      "a": "idd_17069199.jpg",
+      "b": "idd_17069199h.jpg",
+      "mae": 0.3707682291666667
+    },
+    {
+      "a": "idd_170707d.jpg",
+      "b": "idd_170707v.jpg",
+      "mae": 0.3509724934895833
+    },
+    {
+      "a": "idd_170708.jpg",
+      "b": "idd_170708h.jpg",
+      "mae": 0.4130452473958333
+    },
+    {
+      "a": "idd_170806d.jpg",
+      "b": "idd_170806v.jpg",
+      "mae": 0.4177449544270833
+    },
+    {
+      "a": "idd_170807d.jpg",
+      "b": "idd_170807v.jpg",
+      "mae": 0.4597371419270833
+    },
+    {
+      "a": "idd_170810.jpg",
+      "b": "idd_170810h.jpg",
+      "mae": 0.4678751627604167
+    },
+    {
+      "a": "idd_17086999.jpg",
+      "b": "idd_17086999h.jpg",
+      "mae": 0.50677490234375
+    },
+    {
+      "a": "idd_17087099d.jpg",
+      "b": "idd_17087099v.jpg",
+      "mae": 0.4702351888020833
+    }
+  ],
+  "class_names": {
+    "0": "severe_soiling_no_discharge_whole",
+    "1": "insulator_unspecified",
+    "2": "broken_local",
+    "3": "pollution_flashover_local",
+    "4": "broken_glass_local"
+  },
+  "class_edit": {
+    "removed_old_ids": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "mapping": {
+      "0": 0,
+      "5": 1,
+      "6": 2,
+      "7": 3,
+      "8": 4
+    },
+    "backup": "D:\\newYOLO\\backups\\before_remove_classes_1_2_3_4_20260928_140143.zip"
+  }
+}

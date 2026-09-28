@@ -1,0 +1,11 @@
+{
+  "exit_code": 0,
+  "total_wall_seconds": 567.8756161999991,
+  "log": "D:\\newYOLO\\insulator_project\\full_5epochs_20260928_171136.log",
+  "telemetry": "D:\\newYOLO\\insulator_project\\gpu_5epochs_20260928_171136.jsonl",
+  "sampled_gpu_wh": 3.7868393541666667,
+  "note": "Sampled GPU energy only; excludes CPU, display, adapters, and other system power.",
+  "mean_sampled_gpu_w": 23.929298245614035,
+  "max_sampled_memory_mib": 3375.0,
+  "max_sampled_temperature_c": 66.0
+}

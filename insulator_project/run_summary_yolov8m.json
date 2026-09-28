@@ -1,0 +1,111 @@
+{
+  "status": "passed",
+  "purpose": "pipeline smoke test, not an accuracy evaluation",
+  "full_dataset": true,
+  "epochs": 5,
+  "imgsz": 640,
+  "batch": 4,
+  "run_dir": "D:\\newYOLO\\insulator_project\\runs\\full_yolov8m",
+  "best": "D:\\newYOLO\\insulator_project\\runs\\full_yolov8m\\weights\\best.pt",
+  "classes": {
+    "0": "severe_soiling_no_discharge_whole",
+    "1": "insulator_unspecified",
+    "2": "broken_local",
+    "3": "pollution_flashover_local",
+    "4": "broken_glass_local"
+  },
+  "model": "yolov8m.pt",
+  "metrics": {
+    "metrics/precision(B)": 0.7768420289950849,
+    "metrics/recall(B)": 0.68317275354178,
+    "metrics/mAP50(B)": 0.7314245920737179,
+    "metrics/mAP50-95(B)": 0.47444221849466783,
+    "fitness": 0.47444221849466783
+  },
+  "predictions": [
+    {
+      "image": "D:/newYOLO/datasets/insulator_merged_yolo/images/original_003775.jpg",
+      "detections": 9,
+      "save_dir": "D:\\newYOLO\\insulator_project\\runs\\yolov8m_predict"
+    },
+    {
+      "image": "D:/newYOLO/datasets/insulator_merged_yolo/images/original_000071.jpg",
+      "detections": 11,
+      "save_dir": "D:\\newYOLO\\insulator_project\\runs\\yolov8m_predict"
+    },
+    {
+      "image": "D:/newYOLO/datasets/insulator_merged_yolo/images/original_003442.jpg",
+      "detections": 8,
+      "save_dir": "D:\\newYOLO\\insulator_project\\runs\\yolov8m_predict"
+    },
+    {
+      "image": "D:/newYOLO/datasets/insulator_merged_yolo/images/original_002440.jpg",
+      "detections": 7,
+      "save_dir": "D:\\newYOLO\\insulator_project\\runs\\yolov8m_predict"
+    }
+  ],
+  "environment": {
+    "ultralytics": "8.4.164",
+    "source": "D:\\newYOLO/ultralytics\\ultralytics\\__init__.py",
+    "torch": "2.0.0+cu118",
+    "cuda": "11.8",
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU"
+  },
+  "per_class": [
+    {
+      "Class": "severe_soiling_no_discharge_whole",
+      "Images": 118,
+      "Instances": 553,
+      "Box-P": 0.65163,
+      "Box-R": 0.71067,
+      "Box-F1": 0.67987,
+      "mAP50": 0.72748,
+      "mAP75": 0.68853,
+      "mAP50-95": 0.56529
+    },
+    {
+      "Class": "insulator_unspecified",
+      "Images": 144,
+      "Instances": 164,
+      "Box-P": 0.94871,
+      "Box-R": 0.9878,
+      "Box-F1": 0.96787,
+      "mAP50": 0.99364,
+      "mAP75": 0.98494,
+      "mAP50-95": 0.86306
+    },
+    {
+      "Class": "broken_local",
+      "Images": 75,
+      "Instances": 96,
+      "Box-P": 0.77154,
+      "Box-R": 0.57292,
+      "Box-F1": 0.65756,
+      "mAP50": 0.65211,
+      "mAP75": 0.34609,
+      "mAP50-95": 0.34493
+    },
+    {
+      "Class": "pollution_flashover_local",
+      "Images": 68,
+      "Instances": 230,
+      "Box-P": 0.82207,
+      "Box-R": 0.5022,
+      "Box-F1": 0.6235,
+      "mAP50": 0.6096,
+      "mAP75": 0.12865,
+      "mAP50-95": 0.24283
+    },
+    {
+      "Class": "broken_glass_local",
+      "Images": 101,
+      "Instances": 123,
+      "Box-P": 0.69025,
+      "Box-R": 0.64228,
+      "Box-F1": 0.6654,
+      "mAP50": 0.67429,
+      "mAP75": 0.32529,
+      "mAP50-95": 0.3561
+    }
+  ]
+}

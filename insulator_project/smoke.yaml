@@ -1,0 +1,10 @@
+path: D:/newYOLO/datasets/insulator_merged_yolo
+train: D:/newYOLO/insulator_project/smoke_train.txt
+val: D:/newYOLO/insulator_project/smoke_val.txt
+nc: 5
+names:
+  0: severe_soiling_no_discharge_whole
+  1: insulator_unspecified
+  2: broken_local
+  3: pollution_flashover_local
+  4: broken_glass_local

@@ -1,0 +1,19 @@
+{
+  "settings_version": "0.0.8",
+  "datasets_dir": "D:\\newYOLO\\datasets",
+  "weights_dir": "D:\\newYOLO\\ultralytics\\weights",
+  "runs_dir": "D:\\newYOLO\\ultralytics\\runs",
+  "uuid": "a1fc28475fd855ad6571f158144745641ba7271ec49f19dc270a49056cf12beb",
+  "sync": false,
+  "api_key": "",
+  "openai_api_key": "",
+  "clearml": false,
+  "comet": false,
+  "dvc": false,
+  "mlflow": false,
+  "raytune": true,
+  "tensorboard": false,
+  "wandb": false,
+  "vscode_msg": true,
+  "openvino_msg": true
+}

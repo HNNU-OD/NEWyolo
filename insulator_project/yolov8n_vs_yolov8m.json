@@ -1,0 +1,256 @@
+{
+  "nano": {
+    "status": "passed",
+    "purpose": "pipeline smoke test, not an accuracy evaluation",
+    "full_dataset": true,
+    "epochs": 5,
+    "imgsz": 640,
+    "batch": 4,
+    "run_dir": "D:\\newYOLO\\insulator_project\\runs\\full",
+    "best": "D:\\newYOLO\\insulator_project\\runs\\full\\weights\\best.pt",
+    "classes": {
+      "0": "severe_soiling_no_discharge_whole",
+      "1": "insulator_unspecified",
+      "2": "broken_local",
+      "3": "pollution_flashover_local",
+      "4": "broken_glass_local"
+    },
+    "metrics": {
+      "metrics/precision(B)": 0.7221810052568607,
+      "metrics/recall(B)": 0.620802911047233,
+      "metrics/mAP50(B)": 0.6599486358726198,
+      "metrics/mAP50-95(B)": 0.422213185200007,
+      "fitness": 0.422213185200007
+    },
+    "predictions": [
+      {
+        "image": "D:/newYOLO/datasets/insulator_merged_yolo/images/original_003775.jpg",
+        "detections": 9,
+        "save_dir": "D:\\newYOLO\\insulator_project\\runs\\smoke_predict-2"
+      },
+      {
+        "image": "D:/newYOLO/datasets/insulator_merged_yolo/images/original_000071.jpg",
+        "detections": 8,
+        "save_dir": "D:\\newYOLO\\insulator_project\\runs\\smoke_predict-2"
+      },
+      {
+        "image": "D:/newYOLO/datasets/insulator_merged_yolo/images/original_003442.jpg",
+        "detections": 7,
+        "save_dir": "D:\\newYOLO\\insulator_project\\runs\\smoke_predict-2"
+      },
+      {
+        "image": "D:/newYOLO/datasets/insulator_merged_yolo/images/original_002440.jpg",
+        "detections": 8,
+        "save_dir": "D:\\newYOLO\\insulator_project\\runs\\smoke_predict-2"
+      }
+    ],
+    "environment": {
+      "ultralytics": "8.4.164",
+      "source": "D:\\newYOLO/ultralytics\\ultralytics\\__init__.py",
+      "torch": "2.0.0+cu118",
+      "cuda": "11.8",
+      "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU"
+    }
+  },
+  "medium": {
+    "status": "passed",
+    "purpose": "pipeline smoke test, not an accuracy evaluation",
+    "full_dataset": true,
+    "epochs": 5,
+    "imgsz": 640,
+    "batch": 4,
+    "run_dir": "D:\\newYOLO\\insulator_project\\runs\\full_yolov8m",
+    "best": "D:\\newYOLO\\insulator_project\\runs\\full_yolov8m\\weights\\best.pt",
+    "classes": {
+      "0": "severe_soiling_no_discharge_whole",
+      "1": "insulator_unspecified",
+      "2": "broken_local",
+      "3": "pollution_flashover_local",
+      "4": "broken_glass_local"
+    },
+    "model": "yolov8m.pt",
+    "metrics": {
+      "metrics/precision(B)": 0.7768420289950849,
+      "metrics/recall(B)": 0.68317275354178,
+      "metrics/mAP50(B)": 0.7314245920737179,
+      "metrics/mAP50-95(B)": 0.47444221849466783,
+      "fitness": 0.47444221849466783
+    },
+    "predictions": [
+      {
+        "image": "D:/newYOLO/datasets/insulator_merged_yolo/images/original_003775.jpg",
+        "detections": 9,
+        "save_dir": "D:\\newYOLO\\insulator_project\\runs\\yolov8m_predict"
+      },
+      {
+        "image": "D:/newYOLO/datasets/insulator_merged_yolo/images/original_000071.jpg",
+        "detections": 11,
+        "save_dir": "D:\\newYOLO\\insulator_project\\runs\\yolov8m_predict"
+      },
+      {
+        "image": "D:/newYOLO/datasets/insulator_merged_yolo/images/original_003442.jpg",
+        "detections": 8,
+        "save_dir": "D:\\newYOLO\\insulator_project\\runs\\yolov8m_predict"
+      },
+      {
+        "image": "D:/newYOLO/datasets/insulator_merged_yolo/images/original_002440.jpg",
+        "detections": 7,
+        "save_dir": "D:\\newYOLO\\insulator_project\\runs\\yolov8m_predict"
+      }
+    ],
+    "environment": {
+      "ultralytics": "8.4.164",
+      "source": "D:\\newYOLO/ultralytics\\ultralytics\\__init__.py",
+      "torch": "2.0.0+cu118",
+      "cuda": "11.8",
+      "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU"
+    },
+    "per_class": [
+      {
+        "Class": "severe_soiling_no_discharge_whole",
+        "Images": 118,
+        "Instances": 553,
+        "Box-P": 0.65163,
+        "Box-R": 0.71067,
+        "Box-F1": 0.67987,
+        "mAP50": 0.72748,
+        "mAP75": 0.68853,
+        "mAP50-95": 0.56529
+      },
+      {
+        "Class": "insulator_unspecified",
+        "Images": 144,
+        "Instances": 164,
+        "Box-P": 0.94871,
+        "Box-R": 0.9878,
+        "Box-F1": 0.96787,
+        "mAP50": 0.99364,
+        "mAP75": 0.98494,
+        "mAP50-95": 0.86306
+      },
+      {
+        "Class": "broken_local",
+        "Images": 75,
+        "Instances": 96,
+        "Box-P": 0.77154,
+        "Box-R": 0.57292,
+        "Box-F1": 0.65756,
+        "mAP50": 0.65211,
+        "mAP75": 0.34609,
+        "mAP50-95": 0.34493
+      },
+      {
+        "Class": "pollution_flashover_local",
+        "Images": 68,
+        "Instances": 230,
+        "Box-P": 0.82207,
+        "Box-R": 0.5022,
+        "Box-F1": 0.6235,
+        "mAP50": 0.6096,
+        "mAP75": 0.12865,
+        "mAP50-95": 0.24283
+      },
+      {
+        "Class": "broken_glass_local",
+        "Images": 101,
+        "Instances": 123,
+        "Box-P": 0.69025,
+        "Box-R": 0.64228,
+        "Box-F1": 0.6654,
+        "mAP50": 0.67429,
+        "mAP75": 0.32529,
+        "mAP50-95": 0.3561
+      }
+    ]
+  },
+  "matched_settings": {
+    "data": "D:\\newYOLO\\insulator_project\\data_full.yaml",
+    "epochs": 5,
+    "imgsz": 640,
+    "batch": 4,
+    "workers": 0,
+    "amp": false,
+    "seed": 20260928,
+    "close_mosaic": 0,
+    "optimizer": "auto",
+    "device": "0"
+  },
+  "epoch_seconds": {
+    "n": [
+      106.805,
+      105.73399999999998,
+      108.827,
+      108.70100000000002,
+      110.50699999999995
+    ],
+    "m": [
+      246.488,
+      243.57,
+      286.51800000000003,
+      248.5239999999999,
+      200.11000000000013
+    ]
+  },
+  "mean_epoch_seconds_after_first": {
+    "n": 108.44224999999999,
+    "m": 244.6805
+  },
+  "epoch_time_ratio": 2.2563207605891615,
+  "timing_n": {
+    "exit_code": 0,
+    "total_wall_seconds": 567.8756161999991,
+    "log": "D:\\newYOLO\\insulator_project\\full_5epochs_20260928_171136.log",
+    "telemetry": "D:\\newYOLO\\insulator_project\\gpu_5epochs_20260928_171136.jsonl",
+    "sampled_gpu_wh": 3.7868393541666667,
+    "note": "Sampled GPU energy only; excludes CPU, display, adapters, and other system power.",
+    "mean_sampled_gpu_w": 23.929298245614035,
+    "max_sampled_memory_mib": 3375.0,
+    "max_sampled_temperature_c": 66.0
+  },
+  "timing_m": {
+    "model": "yolov8m.pt",
+    "batch": 4,
+    "exit_code": 0,
+    "total_wall_seconds": 1252.0224887999975,
+    "log": "D:\\newYOLO\\insulator_project\\yolov8m_5epochs_20260928_174822.log",
+    "telemetry": "D:\\newYOLO\\insulator_project\\yolov8m_gpu_5epochs_20260928_174822.jsonl",
+    "sampled_gpu_wh": 13.782699468055556,
+    "note": "Sampled GPU energy only; excludes CPU, display, adapters, and other system power.",
+    "mean_sampled_gpu_w": 39.497519999999994,
+    "max_sampled_memory_mib": 5924.0,
+    "max_sampled_temperature_c": 77.0
+  },
+  "baseline_class_metrics_rounded_from_log": {
+    "severe_soiling_no_discharge_whole": {
+      "precision": 0.66,
+      "recall": 0.7,
+      "mAP50": 0.683,
+      "mAP50-95": 0.509
+    },
+    "insulator_unspecified": {
+      "precision": 0.954,
+      "recall": 0.982,
+      "mAP50": 0.993,
+      "mAP50-95": 0.881
+    },
+    "broken_local": {
+      "precision": 0.559,
+      "recall": 0.427,
+      "mAP50": 0.487,
+      "mAP50-95": 0.206
+    },
+    "pollution_flashover_local": {
+      "precision": 0.782,
+      "recall": 0.304,
+      "mAP50": 0.434,
+      "mAP50-95": 0.152
+    },
+    "broken_glass_local": {
+      "precision": 0.656,
+      "recall": 0.691,
+      "mAP50": 0.703,
+      "mAP50-95": 0.363
+    }
+  },
+  "dataset_limitations": "Known train/val near-duplicates and inconsistent annotations remain. Five epochs is not convergence."
+}

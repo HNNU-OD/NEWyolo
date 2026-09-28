@@ -1,0 +1,13 @@
+{'ultralytics': '8.4.164', 'source': 'D:\\newYOLO/ultralytics\\ultralytics\\__init__.py', 'torch': '2.0.0+cu118', 'cuda': '11.8', 'gpu': 'NVIDIA GeForce RTX 4060 Laptop GPU'}
+
+[KDownloading https://ultralytics.com/assets/Arial.ttf to 'D:\newYOLO\insulator_project\.ultralytics\Ultralytics\Arial.ttf': 5% ╸─────────── 40.0/755.1KB 96.0KB/s 0.1s<7.4s
+[KDownloading https://ultralytics.com/assets/Arial.ttf to 'D:\newYOLO\insulator_project\.ultralytics\Ultralytics\Arial.ttf': 13% ━╸────────── 104.0/755.1KB 244.3KB/s 0.2s<2.7s
+[KDownloading https://ultralytics.com/assets/Arial.ttf to 'D:\newYOLO\insulator_project\.ultralytics\Ultralytics\Arial.ttf': 30% ━━━╸──────── 232.0/755.1KB 1.1MB/s 0.3s<0.5s
+[KDownloading https://ultralytics.com/assets/Arial.ttf to 'D:\newYOLO\insulator_project\.ultralytics\Ultralytics\Arial.ttf': 64% ━━━━━━━╸──── 488.0/755.1KB 2.2MB/s 0.5s<0.1s
+[KDownloading https://ultralytics.com/assets/Arial.ttf to 'D:\newYOLO\insulator_project\.ultralytics\Ultralytics\Arial.ttf': 100% ━━━━━━━━━━━━ 755.1KB 1.4MB/s 0.5s
+Official dataset verification: {'missing': 0, 'found': 3370, 'empty': 14, 'corrupt': 0}
+WARNING Download failure, retrying 1/3 https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n.pt... ('Connection aborted.', ConnectionResetError(10054, '', None, 10054, None))
+curl: (28) Failed to connect to github.com:443 after 21062 ms: Could not connect to server
+Warning: Problem : timeout. Retrying in 1 second. 4 retries left.
+curl: (28) Failed to connect to github.com:443 after 21038 ms: Could not connect to server
+Warning: Problem : timeout. Retrying in 2 seconds. 3 retries left.

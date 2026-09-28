@@ -1,0 +1,84 @@
+{
+  "epoch_seconds": [
+    106.805,
+    105.73399999999998,
+    108.827,
+    108.70100000000002,
+    110.50699999999995
+  ],
+  "mean_epoch_seconds_after_first": 108.44224999999999,
+  "estimated_100_epochs_hours": 3.0122847222222218,
+  "wall_seconds": 567.8756161999991,
+  "metrics": {
+    "metrics/precision(B)": 0.7221810052568607,
+    "metrics/recall(B)": 0.620802911047233,
+    "metrics/mAP50(B)": 0.6599486358726198,
+    "metrics/mAP50-95(B)": 0.422213185200007,
+    "fitness": 0.422213185200007
+  },
+  "examples": [
+    {
+      "image": "D:\\newYOLO\\datasets\\insulator_merged_yolo\\images\\original_002439.jpg",
+      "predictions": 7,
+      "classes": [
+        "severe_soiling_no_discharge_whole",
+        "severe_soiling_no_discharge_whole",
+        "severe_soiling_no_discharge_whole",
+        "severe_soiling_no_discharge_whole",
+        "severe_soiling_no_discharge_whole",
+        "severe_soiling_no_discharge_whole",
+        "severe_soiling_no_discharge_whole"
+      ]
+    },
+    {
+      "image": "D:\\newYOLO\\datasets\\insulator_merged_yolo\\images\\idd_170526.jpg",
+      "predictions": 3,
+      "classes": [
+        "insulator_unspecified",
+        "broken_local",
+        "broken_local"
+      ]
+    },
+    {
+      "image": "D:\\newYOLO\\datasets\\insulator_merged_yolo\\images\\idd_170080h.jpg",
+      "predictions": 2,
+      "classes": [
+        "insulator_unspecified",
+        "broken_local"
+      ]
+    },
+    {
+      "image": "D:\\newYOLO\\datasets\\insulator_merged_yolo\\images\\idd_160873Ad.jpg",
+      "predictions": 1,
+      "classes": [
+        "insulator_unspecified"
+      ]
+    },
+    {
+      "image": "D:\\newYOLO\\datasets\\insulator_merged_yolo\\images\\vpmbgi_cdien_ttinh_ct_vo_617_jpg.rf.2cae63bed7168242ae40505224096476.jpg",
+      "predictions": 9,
+      "classes": [
+        "broken_glass_local",
+        "broken_glass_local",
+        "broken_glass_local",
+        "broken_glass_local",
+        "broken_glass_local",
+        "broken_glass_local",
+        "broken_glass_local",
+        "broken_glass_local",
+        "broken_glass_local"
+      ]
+    }
+  ],
+  "gpu_telemetry": {
+    "exit_code": 0,
+    "total_wall_seconds": 567.8756161999991,
+    "log": "D:\\newYOLO\\insulator_project\\full_5epochs_20260928_171136.log",
+    "telemetry": "D:\\newYOLO\\insulator_project\\gpu_5epochs_20260928_171136.jsonl",
+    "sampled_gpu_wh": 3.7868393541666667,
+    "note": "Sampled GPU energy only; excludes CPU, display, adapters, and other system power.",
+    "mean_sampled_gpu_w": 23.929298245614035,
+    "max_sampled_memory_mib": 3375.0,
+    "max_sampled_temperature_c": 66.0
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "status": "passed",
+  "purpose": "pipeline smoke test, not an accuracy evaluation",
+  "full_dataset": false,
+  "epochs": 1,
+  "imgsz": 640,
+  "batch": 4,
+  "run_dir": "D:\\newYOLO\\insulator_project\\runs\\smoke",
+  "best": "D:\\newYOLO\\insulator_project\\runs\\smoke\\weights\\best.pt",
+  "classes": {
+    "0": "severe_soiling_no_discharge_whole",
+    "1": "broken_whole",
+    "2": "discharge_marks_whole",
+    "3": "loose_tilted_whole",
+    "4": "glaze_peeling_whole",
+    "5": "insulator_unspecified",
+    "6": "broken_local",
+    "7": "pollution_flashover_local",
+    "8": "broken_glass_local"
+  },
+  "metrics": {
+    "metrics/precision(B)": 0.003289620095518491,
+    "metrics/recall(B)": 0.16529733959311424,
+    "metrics/mAP50(B)": 0.07263061816247195,
+    "metrics/mAP50-95(B)": 0.03576145422628097,
+    "fitness": 0.03576145422628097
+  },
+  "predictions": [
+    {
+      "image": "D:/newYOLO/datasets/insulator_merged_yolo/images/original_003775.jpg",
+      "detections": 0,
+      "save_dir": "D:\\newYOLO\\insulator_project\\runs\\smoke_predict"
+    },
+    {
+      "image": "D:/newYOLO/datasets/insulator_merged_yolo/images/original_000071.jpg",
+      "detections": 0,
+      "save_dir": "D:\\newYOLO\\insulator_project\\runs\\smoke_predict"
+    },
+    {
+      "image": "D:/newYOLO/datasets/insulator_merged_yolo/images/original_003442.jpg",
+      "detections": 0,
+      "save_dir": "D:\\newYOLO\\insulator_project\\runs\\smoke_predict"
+    },
+    {
+      "image": "D:/newYOLO/datasets/insulator_merged_yolo/images/original_002440.jpg",
+      "detections": 0,
+      "save_dir": "D:\\newYOLO\\insulator_project\\runs\\smoke_predict"
+    }
+  ],
+  "environment": {
+    "ultralytics": "8.4.164",
+    "source": "D:\\newYOLO/ultralytics\\ultralytics\\__init__.py",
+    "torch": "2.0.0+cu118",
+    "cuda": "11.8",
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU"
+  }
+}
