@@ -1,0 +1,6 @@
+id,class,total_boxes,train_boxes,val_boxes,test_boxes
+0,severe_soiling_no_discharge_whole,3513,2481,553,479
+1,insulator_unspecified,1645,1481,164,0
+2,broken_local,963,867,96,0
+3,pollution_flashover_local,2223,1993,230,0
+4,broken_glass_local,1188,1065,123,0

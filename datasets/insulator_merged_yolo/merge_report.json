@@ -1,0 +1,78 @@
+{
+  "scope": "all",
+  "images": 3370,
+  "labels": 3370,
+  "boxes": 9532,
+  "class_names": [
+    "severe_soiling_no_discharge_whole",
+    "insulator_unspecified",
+    "broken_local",
+    "pollution_flashover_local",
+    "broken_glass_local"
+  ],
+  "class_boxes": {
+    "1": 1645,
+    "2": 963,
+    "3": 2223,
+    "0": 3513,
+    "4": 1188
+  },
+  "sources": {
+    "original": 920,
+    "idd": 1440,
+    "vpmbgi": 1010
+  },
+  "splits": {
+    "train": {
+      "images": 2848,
+      "boxes": 7887,
+      "class_boxes": {
+        "1": 1481,
+        "2": 867,
+        "3": 1993,
+        "0": 2481,
+        "4": 1065
+      }
+    },
+    "val": {
+      "images": 383,
+      "boxes": 1166,
+      "class_boxes": {
+        "1": 164,
+        "2": 96,
+        "3": 230,
+        "0": 553,
+        "4": 123
+      }
+    },
+    "test": {
+      "images": 139,
+      "boxes": 479,
+      "class_boxes": {
+        "0": 479
+      }
+    }
+  },
+  "source_files_checked": 6752,
+  "original_files_unchanged": true,
+  "source_images_copied_without_pixel_changes": true,
+  "same_image_across_splits": false,
+  "class_semantics": "Source distinctions retained; no automatic whole-object versus local-defect relabeling",
+  "test_coverage": "Only current class 0 is present in the retained test split.",
+  "class_edit": {
+    "removed_old_ids": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "mapping": {
+      "0": 0,
+      "5": 1,
+      "6": 2,
+      "7": 3,
+      "8": 4
+    },
+    "backup": "D:\\newYOLO\\backups\\before_remove_classes_1_2_3_4_20260928_140143.zip"
+  }
+}
