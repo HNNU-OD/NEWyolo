@@ -1,0 +1,5 @@
+severe_soiling_no_discharge_whole
+insulator_unspecified
+broken_local
+pollution_flashover_local
+broken_glass_local

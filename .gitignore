@@ -1,0 +1,20 @@
+# Python 环境
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+
+
+# 训练结果/备份
+backups/
+runs/
+
+# 模型权重
+*.pt
+*.pth
+*.onnx
+
+# IDE
+.idea/
+.vscode/
