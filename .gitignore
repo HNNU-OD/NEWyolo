@@ -18,3 +18,4 @@ runs/
 # IDE
 .idea/
 .vscode/
+datasets.zip
